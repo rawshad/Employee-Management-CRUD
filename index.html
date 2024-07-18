@@ -1,0 +1,55 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+</head>
+<body>
+    <h1>Employee Management</h1>
+    <form id="employee-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="position" placeholder="Position" required>
+        <button type="submit">Add Employee</button>
+    </form>
+    <ul id="employee-list"></ul>
+    <script src="app.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Management</h1>
+        <form id="employee-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="position" placeholder="Position" required>
+            <button type="submit">Add Employee</button>
+        </form>
+        <ul id="employee-list"></ul>
+    </div>
+
+    <!-- Modal - employee details -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Update Employee</h2>
+            <form id="update-form">
+                <input type="text" id="update-name" placeholder="Name" required>
+                <input type="text" id="update-position" placeholder="Position" required>
+                <button type="submit">Update Employee</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
